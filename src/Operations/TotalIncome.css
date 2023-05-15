@@ -1,0 +1,13 @@
+.total-income {
+    border: 2px green solid;
+    border-radius: 1rem;
+    text-align: center;
+    width: 15rem;
+    background-color: #00800026;
+}
+.total-income h2 {
+    margin: .5rem;
+}
+.total-income h3 {
+    color: green;
+}

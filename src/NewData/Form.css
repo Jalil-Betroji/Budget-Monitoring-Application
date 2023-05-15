@@ -1,0 +1,53 @@
+* {
+  outline: none;
+}
+.new-data__controler {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+.new-data__controled {
+  width: 48%;
+}
+.new-data__controled label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+.new-data__controler :nth-of-type(3) {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.new-data__controler :nth-of-type(3) button {
+  max-width: 8rem;
+  margin-top: .5rem;
+  cursor: pointer;
+  padding: .25rem ;
+  border: 1px solid #40005d;
+  background-color: #40005d;
+  color: white;
+  border-radius: 1rem;
+}
+.new-data__controled  input , select , textarea {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width:100%;
+  max-width: 100%;
+}
+
+.add-new-second-button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid #40005d;
+  background-color: #40005d;
+  color: white;
+  border-radius: 12px;
+  margin-right: 1rem;
+}

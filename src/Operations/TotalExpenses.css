@@ -1,0 +1,13 @@
+.total-expenses {
+    border: 2px rgb(239, 11, 11) solid;
+    border-radius: 1rem;
+    width: 15rem;
+    text-align: center;
+    background-color: #ff000033;
+}
+.total-expenses h2 {
+    margin: .5rem;
+}
+.total-expenses h3 {
+    color: red;
+}

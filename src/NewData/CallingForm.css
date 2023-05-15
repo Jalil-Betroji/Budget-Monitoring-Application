@@ -1,0 +1,20 @@
+.form-holder {
+    background-color: #a892ee;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+button {
+    background-color: #40005d;
+    text-align: center;
+    width: 10rem;
+    padding: .5rem;   
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
